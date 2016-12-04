@@ -17,7 +17,7 @@ Il devra être ajouté :
 Les formats / Modificateurs conversion et autres ne sont pas à gérer.
 
 Fonctions / lib Autorisées :
-  - <stdarg.h>
+  - \<stdarg.h\>
   - malloc()
   - free()
   - write()
