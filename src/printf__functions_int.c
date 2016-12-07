@@ -5,7 +5,7 @@
 ** Login   <lombar_e@epitech.net>
 **
 ** Started on  Fri Nov 18 11:24:32 2016 Thomas Lombard
-** Last update Sun Dec 04 23:51:33 2016 Thomas Lombard
+** Last update Wed Dec 07 19:46:46 2016 Thomas Lombard
 */
 
 #include <stdint.h>
@@ -16,7 +16,6 @@ static void	printf__before_print_di(long		nbr,
 					t_printf_out	*out)
 {
   --param->prec;
-  printf("%d\n", param->prec);
   if (nbr > 0 && param->o_aff)
     printf__print('+', out);
   while (param->prec > 0 && param->prec--)
